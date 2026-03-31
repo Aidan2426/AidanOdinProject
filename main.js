@@ -63,9 +63,49 @@ while (i < 10){
 
 //now its going into dom which I don't think I'm gonna need in the slightest basically I'm just trying to get more familer with js
 
+//parameters
 function favoriteAnimal(animal){
     return animal + " is my favorite"
 }
-
+//arguments = goat
 const message = favoriteAnimal('Goat');
 console.log(message);
+
+const array1 = ["aidan", "leo", "ash"];
+for (a in array1){
+    console.log(array1[a]);
+}
+
+//semicolons are mostly optional in javascript beucase the java interpreter will automaticlaly insert them if there are oitted
+
+const myObject = {
+    property: "Value", 
+    otherProperty: 77, 
+    "obnoxious property": function (){
+        console.log("obn");
+    }
+}
+
+console.log(myObject.property);
+
+console.log(myObject["obnoxious property"]);
+
+const playerOneName = "time";
+const PlayTwoName = "jenn";
+const playerOneMarket = "X";
+const playerTwoMarket = "O";
+
+const playerOne = {
+    name: "tim",
+    marker: "X",
+};
+
+const playerTwo = {
+    name: "jenn", 
+    market: "O",
+}
+
+const name1 = "Aidan";
+console.log('Hello ${name1}');
+
+console.log("Hello" + name1);

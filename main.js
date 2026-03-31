@@ -60,3 +60,12 @@ while (i < 10){
     i++;
     console.log(i);
 }
+
+//now its going into dom which I don't think I'm gonna need in the slightest basically I'm just trying to get more familer with js
+
+function favoriteAnimal(animal){
+    return animal + " is my favorite"
+}
+
+const message = favoriteAnimal('Goat');
+console.log(message);

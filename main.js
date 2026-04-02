@@ -109,3 +109,11 @@ const name1 = "Aidan";
 console.log('Hello ${name1}');
 
 console.log("Hello" + name1);
+
+function Player(name, marker){
+    this.name = name;
+    this.marker = marker;
+}
+
+const player = new Player("steve", "X");
+console.log(player.name);
